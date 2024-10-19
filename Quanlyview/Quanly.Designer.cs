@@ -277,6 +277,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = SystemColors.GradientActiveCaption;
             ClientSize = new Size(1290, 559);
             Controls.Add(dateTimePicker1);
             Controls.Add(btSelectImage);
