@@ -32,3 +32,4 @@ D:\Quanlyview\Quanlyview\Quanlyview\obj\Debug\net8.0-windows\refint\Quanlyview.d
 D:\Quanlyview\Quanlyview\Quanlyview\obj\Debug\net8.0-windows\Quanlyview.pdb
 D:\Quanlyview\Quanlyview\Quanlyview\obj\Debug\net8.0-windows\Quanlyview.genruntimeconfig.cache
 D:\Quanlyview\Quanlyview\Quanlyview\obj\Debug\net8.0-windows\ref\Quanlyview.dll
+D:\Quanlyview\Quanlyview\Quanlyview\obj\Debug\net8.0-windows\Quanlyview.sourcelink.json

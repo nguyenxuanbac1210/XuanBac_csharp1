@@ -93,9 +93,9 @@
             label1.AutoSize = true;
             label1.Location = new Point(746, 337);
             label1.Name = "label1";
-            label1.Size = new Size(99, 20);
+            label1.Size = new Size(84, 20);
             label1.TabIndex = 3;
-            label1.Text = "Mã Môn Học ";
+            label1.Text = "Ngành Học";
             // 
             // label2
             // 

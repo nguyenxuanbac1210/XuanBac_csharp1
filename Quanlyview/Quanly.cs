@@ -52,7 +52,7 @@ namespace Quanlyview
             dgvEmployee.Columns[3].HeaderText = "Giới Tính";
             dgvEmployee.Columns[4].HeaderText = "Số Điện Thoại";
             dgvEmployee.Columns[5].HeaderText = "Mã Lớp Học";
-            dgvEmployee.Columns[6].HeaderText = "Mã Môn Học ";
+            dgvEmployee.Columns[6].HeaderText = "Ngành Học ";
             dgvEmployee.Columns[7].HeaderText = "Ảnh"; // Add header for Birth Date
         }
 
@@ -73,6 +73,8 @@ namespace Quanlyview
 
         private void btAddNew_Click(object sender, EventArgs e)
         {
+            if (!IsInputValid()) return; // Nếu dữ liệu không hợp lệ, dừng lại
+
             try
             {
                 int newId = int.Parse(tbId.Text);
@@ -97,6 +99,7 @@ namespace Quanlyview
                 lstEmp.Add(newEmp);
                 bs.ResetBindings(false);
                 ClearInputFields();
+                tbId.Enabled = true; // Bật lại ô ID cho lần nhập mới
             }
             catch (FormatException)
             {
@@ -107,6 +110,8 @@ namespace Quanlyview
                 MessageBox.Show("Đã xảy ra lỗi: " + ex.Message);
             }
         }
+
+
 
         private void btEdit_Click(object sender, EventArgs e)
         {
@@ -150,35 +155,58 @@ namespace Quanlyview
             Employee em = lstEmp[e.RowIndex];
 
             tbId.Text = em.Id.ToString();
+            tbId.Enabled = false; // Khóa ô ID
+
             tbName.Text = em.Name;
             ckGender.Checked = em.Gender;
             tbAddress.Text = em.Address;
             tbMaduan.Text = em.Maduan;
             cbMaphongban.Text = em.Maphongban;
-            dateTimePicker1.Value = em.BirthDate; // Display BirthDate in DateTimePicker
+            dateTimePicker1.Value = em.BirthDate;
 
-            // Load employee image if exists
             if (!string.IsNullOrEmpty(em.ImagePath) && System.IO.File.Exists(em.ImagePath))
             {
                 pbEmployeeImage.Image = Image.FromFile(em.ImagePath);
             }
             else
             {
-                pbEmployeeImage.Image = null; // Clear image if not available
+                pbEmployeeImage.Image = null;
             }
         }
+
 
         private void ClearInputFields()
         {
             tbId.Text = "";
+            tbId.Enabled = true; // Bật lại ô ID
+
             tbName.Text = "";
             tbAddress.Text = "";
             tbMaduan.Text = "";
             cbMaphongban.Text = "";
             ckGender.Checked = false;
-            pbEmployeeImage.Image = null; // Clear image display
-            dateTimePicker1.Value = DateTime.Now; // Reset DateTimePicker to current date
+            pbEmployeeImage.Image = null;
+            dateTimePicker1.Value = DateTime.Now;
         }
+
+        private bool IsInputValid()
+        {
+            // Kiểm tra tất cả các ô nhập liệu, nếu ô nào trống thì trả về false
+            if (string.IsNullOrWhiteSpace(tbId.Text) ||
+                string.IsNullOrWhiteSpace(tbName.Text) ||
+                string.IsNullOrWhiteSpace(tbAddress.Text) ||
+                string.IsNullOrWhiteSpace(tbMaduan.Text) ||
+                string.IsNullOrWhiteSpace(cbMaphongban.Text) ||
+                pbEmployeeImage.Image == null) // Kiểm tra nếu chưa chọn ảnh
+            {
+                MessageBox.Show("Vui lòng điền đầy đủ tất cả các thông tin và chọn ảnh.", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return false;
+            }
+            return true;
+        }
+
+
+
 
         private void SetupImageList()
         {
