@@ -12,10 +12,9 @@ namespace Quanlyview
         public string Name { get; set; }
         public DateTime BirthDate { get; set; }
         public bool Gender { get; set; }
-
-        public string Address {  get; set; }
-        public string Maduan { get; set; } 
-        public string Maphongban { get; set; }
+        public string Phone { get; set; } 
+        public string MaLop { get; set; }
+        public string NganhHoc { get; set; }
         public string ImagePath { get; set; }
     }
 }

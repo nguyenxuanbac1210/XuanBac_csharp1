@@ -7,32 +7,16 @@
       "RelativeMoniker": "D:0:0:{4C40DA52-AF04-48E1-81DA-CDBF3163C08F}|Quanlyview\\Quanlyview.csproj|solutionrelative:quanlyview\\quanly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4C40DA52-AF04-48E1-81DA-CDBF3163C08F}|Quanlyview\\Quanlyview.csproj|D:\\Quanlyview\\Quanlyview\\quanlyview\\quanly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4C40DA52-AF04-48E1-81DA-CDBF3163C08F}|Quanlyview\\Quanlyview.csproj|solutionrelative:quanlyview\\quanly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4C40DA52-AF04-48E1-81DA-CDBF3163C08F}|Quanlyview\\Quanlyview.csproj|d:\\quanlyview\\quanlyview\\quanlyview\\quanly.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4C40DA52-AF04-48E1-81DA-CDBF3163C08F}|Quanlyview\\Quanlyview.csproj|solutionrelative:quanlyview\\quanly.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4C40DA52-AF04-48E1-81DA-CDBF3163C08F}|Quanlyview\\Quanlyview.csproj|D:\\Quanlyview\\Quanlyview\\quanlyview\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4C40DA52-AF04-48E1-81DA-CDBF3163C08F}|Quanlyview\\Quanlyview.csproj|solutionrelative:quanlyview\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C40DA52-AF04-48E1-81DA-CDBF3163C08F}|Quanlyview\\Quanlyview.csproj|d:\\quanlyview\\quanlyview\\quanlyview\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C40DA52-AF04-48E1-81DA-CDBF3163C08F}|Quanlyview\\Quanlyview.csproj|solutionrelative:quanlyview\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C40DA52-AF04-48E1-81DA-CDBF3163C08F}|Quanlyview\\Quanlyview.csproj|d:\\quanlyview\\quanlyview\\quanlyview\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C40DA52-AF04-48E1-81DA-CDBF3163C08F}|Quanlyview\\Quanlyview.csproj|solutionrelative:quanlyview\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4C40DA52-AF04-48E1-81DA-CDBF3163C08F}|Quanlyview\\Quanlyview.csproj|D:\\Quanlyview\\Quanlyview\\quanlyview\\quanly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4C40DA52-AF04-48E1-81DA-CDBF3163C08F}|Quanlyview\\Quanlyview.csproj|solutionrelative:quanlyview\\quanly.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4C40DA52-AF04-48E1-81DA-CDBF3163C08F}|Quanlyview\\Quanlyview.csproj|d:\\quanlyview\\quanlyview\\quanlyview\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4C40DA52-AF04-48E1-81DA-CDBF3163C08F}|Quanlyview\\Quanlyview.csproj|solutionrelative:quanlyview\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C40DA52-AF04-48E1-81DA-CDBF3163C08F}|Quanlyview\\Quanlyview.csproj|d:\\quanlyview\\quanlyview\\quanlyview\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C40DA52-AF04-48E1-81DA-CDBF3163C08F}|Quanlyview\\Quanlyview.csproj|solutionrelative:quanlyview\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,19 +26,46 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Quanly.cs",
+              "DocumentMoniker": "D:\\Quanlyview\\Quanlyview\\Quanlyview\\Quanly.cs",
+              "RelativeDocumentMoniker": "Quanlyview\\Quanly.cs",
+              "ToolTip": "D:\\Quanlyview\\Quanlyview\\Quanlyview\\Quanly.cs",
+              "RelativeToolTip": "Quanlyview\\Quanly.cs",
+              "ViewState": "AgIAADYBAAAAAAAAAAAgwGcBAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T00:49:05.092Z",
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "D:\\Quanlyview\\Quanlyview\\Quanlyview\\Employee.cs",
+              "RelativeDocumentMoniker": "Quanlyview\\Employee.cs",
+              "ToolTip": "D:\\Quanlyview\\Quanlyview\\Quanlyview\\Employee.cs",
+              "RelativeToolTip": "Quanlyview\\Employee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T11:35:18.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Quanly.cs [Design]",
               "DocumentMoniker": "D:\\Quanlyview\\Quanlyview\\Quanlyview\\Quanly.cs",
               "RelativeDocumentMoniker": "Quanlyview\\Quanly.cs",
@@ -66,88 +77,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Quanly.cs",
-              "DocumentMoniker": "D:\\Quanlyview\\Quanlyview\\Quanlyview\\Quanly.cs",
-              "RelativeDocumentMoniker": "Quanlyview\\Quanly.cs",
-              "ToolTip": "D:\\Quanlyview\\Quanlyview\\Quanlyview\\Quanly.cs",
-              "RelativeToolTip": "Quanlyview\\Quanly.cs",
-              "ViewState": "AgIAAI8AAAAAAAAAAAAUwKQAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-26T00:49:05.092Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "D:\\Quanlyview\\Quanlyview\\Quanlyview\\Form1.cs",
-              "RelativeDocumentMoniker": "Quanlyview\\Form1.cs",
-              "ToolTip": "D:\\Quanlyview\\Quanlyview\\Quanlyview\\Form1.cs",
-              "RelativeToolTip": "Quanlyview\\Form1.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAkAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T00:57:57.307Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "D:\\Quanlyview\\Quanlyview\\Quanlyview\\Form1.cs",
-              "RelativeDocumentMoniker": "Quanlyview\\Form1.cs",
-              "ToolTip": "D:\\Quanlyview\\Quanlyview\\Quanlyview\\Form1.cs [Design]",
-              "RelativeToolTip": "Quanlyview\\Form1.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T00:57:52.368Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Quanlyview\\Quanlyview\\Quanlyview\\Program.cs",
-              "RelativeDocumentMoniker": "Quanlyview\\Program.cs",
-              "ToolTip": "D:\\Quanlyview\\Quanlyview\\Quanlyview\\Program.cs",
-              "RelativeToolTip": "Quanlyview\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T12:44:33.579Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Quanly.Designer.cs",
               "DocumentMoniker": "D:\\Quanlyview\\Quanlyview\\Quanlyview\\Quanly.Designer.cs",
               "RelativeDocumentMoniker": "Quanlyview\\Quanly.Designer.cs",
               "ToolTip": "D:\\Quanlyview\\Quanlyview\\Quanlyview\\Quanly.Designer.cs",
               "RelativeToolTip": "Quanlyview\\Quanly.Designer.cs",
-              "ViewState": "AgIAAEYAAAAAAAAAAAAtwFkAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAAFoAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T11:52:32.12Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Employee.cs",
-              "DocumentMoniker": "D:\\Quanlyview\\Quanlyview\\Quanlyview\\Employee.cs",
-              "RelativeDocumentMoniker": "Quanlyview\\Employee.cs",
-              "ToolTip": "D:\\Quanlyview\\Quanlyview\\Quanlyview\\Employee.cs",
-              "RelativeToolTip": "Quanlyview\\Employee.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T11:35:18.261Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Form1.Designer.cs",
-              "DocumentMoniker": "D:\\Quanlyview\\Quanlyview\\Quanlyview\\Form1.Designer.cs",
-              "RelativeDocumentMoniker": "Quanlyview\\Form1.Designer.cs",
-              "ToolTip": "D:\\Quanlyview\\Quanlyview\\Quanlyview\\Form1.Designer.cs",
-              "RelativeToolTip": "Quanlyview\\Form1.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-19T00:57:44.952Z"
+              "WhenOpened": "2024-10-17T11:52:32.12Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -41,15 +41,17 @@
             btEdit = new Button();
             btDelete = new Button();
             label5 = new Label();
-            tbAddress = new TextBox();
+            tbPhone = new TextBox();
             label6 = new Label();
             label7 = new Label();
             label8 = new Label();
-            cbMaphongban = new ComboBox();
-            tbMaduan = new TextBox();
+            cbMaLop = new ComboBox();
+            tbNganhHoc = new TextBox();
             pbEmployeeImage = new PictureBox();
             btSelectImage = new Button();
             dateTimePicker1 = new DateTimePicker();
+            label4 = new Label();
+            tbSearch = new TextBox();
             ((System.ComponentModel.ISupportInitialize)dgvEmployee).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pbEmployeeImage).BeginInit();
             SuspendLayout();
@@ -186,14 +188,14 @@
             label5.TabIndex = 13;
             label5.Text = "Quản Lý Sinh Viên ";
             // 
-            // tbAddress
+            // tbPhone
             // 
-            tbAddress.Location = new Point(858, 199);
-            tbAddress.Margin = new Padding(3, 4, 3, 4);
-            tbAddress.Name = "tbAddress";
-            tbAddress.Size = new Size(239, 27);
-            tbAddress.TabIndex = 14;
-            tbAddress.TextChanged += tbAddress_TextChanged;
+            tbPhone.Location = new Point(858, 199);
+            tbPhone.Margin = new Padding(3, 4, 3, 4);
+            tbPhone.Name = "tbPhone";
+            tbPhone.Size = new Size(239, 27);
+            tbPhone.TabIndex = 14;
+            tbPhone.TextChanged += tbAddress_TextChanged;
             // 
             // label6
             // 
@@ -224,24 +226,24 @@
             label8.TabIndex = 19;
             label8.Text = "Số Điện Thoại";
             // 
-            // cbMaphongban
+            // cbMaLop
             // 
-            cbMaphongban.FormattingEnabled = true;
-            cbMaphongban.Items.AddRange(new object[] { "CCQ2211M", "CCQ2211A", "CCQ2211G", "CCQ2211C" });
-            cbMaphongban.Location = new Point(858, 260);
-            cbMaphongban.Margin = new Padding(3, 4, 3, 4);
-            cbMaphongban.Name = "cbMaphongban";
-            cbMaphongban.Size = new Size(239, 28);
-            cbMaphongban.TabIndex = 20;
-            cbMaphongban.SelectedIndexChanged += cbMaphongban_SelectedIndexChanged;
+            cbMaLop.FormattingEnabled = true;
+            cbMaLop.Items.AddRange(new object[] { "CCQ2211M", "CCQ2211A", "CCQ2211G", "CCQ2211C" });
+            cbMaLop.Location = new Point(858, 260);
+            cbMaLop.Margin = new Padding(3, 4, 3, 4);
+            cbMaLop.Name = "cbMaLop";
+            cbMaLop.Size = new Size(239, 28);
+            cbMaLop.TabIndex = 20;
+            cbMaLop.SelectedIndexChanged += cbMaphongban_SelectedIndexChanged;
             // 
-            // tbMaduan
+            // tbNganhHoc
             // 
-            tbMaduan.Location = new Point(858, 330);
-            tbMaduan.Margin = new Padding(3, 4, 3, 4);
-            tbMaduan.Name = "tbMaduan";
-            tbMaduan.Size = new Size(239, 27);
-            tbMaduan.TabIndex = 21;
+            tbNganhHoc.Location = new Point(858, 330);
+            tbNganhHoc.Margin = new Padding(3, 4, 3, 4);
+            tbNganhHoc.Name = "tbNganhHoc";
+            tbNganhHoc.Size = new Size(239, 27);
+            tbNganhHoc.TabIndex = 21;
             // 
             // pbEmployeeImage
             // 
@@ -273,21 +275,41 @@
             dateTimePicker1.TabIndex = 24;
             dateTimePicker1.ValueChanged += dateTimePicker1_ValueChanged;
             // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Location = new Point(28, 19);
+            label4.Name = "label4";
+            label4.Size = new Size(76, 20);
+            label4.TabIndex = 25;
+            label4.Text = "Tìm Kiếm ";
+            label4.Click += label4_Click;
+            // 
+            // tbSearch
+            // 
+            tbSearch.Location = new Point(101, 16);
+            tbSearch.Name = "tbSearch";
+            tbSearch.Size = new Size(189, 27);
+            tbSearch.TabIndex = 26;
+            tbSearch.TextChanged += tbSearch_TextChanged;
+            // 
             // Quanly
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.GradientActiveCaption;
             ClientSize = new Size(1290, 559);
+            Controls.Add(tbSearch);
+            Controls.Add(label4);
             Controls.Add(dateTimePicker1);
             Controls.Add(btSelectImage);
             Controls.Add(pbEmployeeImage);
-            Controls.Add(tbMaduan);
-            Controls.Add(cbMaphongban);
+            Controls.Add(tbNganhHoc);
+            Controls.Add(cbMaLop);
             Controls.Add(label8);
             Controls.Add(label7);
             Controls.Add(label6);
-            Controls.Add(tbAddress);
+            Controls.Add(tbPhone);
             Controls.Add(label5);
             Controls.Add(btDelete);
             Controls.Add(btEdit);
@@ -328,14 +350,16 @@
         private Button btEdit;
         private Button btDelete;
         private Label label5;
-        private TextBox tbAddress;
+        private TextBox tbPhone;
         private Label label6;
         private Label label7;
         private Label label8;
-        private ComboBox cbMaphongban;
-        private TextBox tbMaduan;
+        private ComboBox cbMaLop;
+        private TextBox tbNganhHoc;
         private PictureBox pbEmployeeImage;
         private Button btSelectImage;
         private DateTimePicker dateTimePicker1;
+        private Label label4;
+        private TextBox tbSearch;
     }
 }

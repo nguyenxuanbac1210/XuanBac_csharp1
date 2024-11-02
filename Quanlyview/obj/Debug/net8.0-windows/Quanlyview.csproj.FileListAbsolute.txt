@@ -33,3 +33,12 @@ D:\Quanlyview\Quanlyview\Quanlyview\obj\Debug\net8.0-windows\Quanlyview.pdb
 D:\Quanlyview\Quanlyview\Quanlyview\obj\Debug\net8.0-windows\Quanlyview.genruntimeconfig.cache
 D:\Quanlyview\Quanlyview\Quanlyview\obj\Debug\net8.0-windows\ref\Quanlyview.dll
 D:\Quanlyview\Quanlyview\Quanlyview\obj\Debug\net8.0-windows\Quanlyview.sourcelink.json
+D:\Quanlyview\Quanlyview\Quanlyview\bin\Debug\net8.0-windows\System.Data.SqlClient.dll
+D:\Quanlyview\Quanlyview\Quanlyview\bin\Debug\net8.0-windows\runtimes\win-arm64\native\sni.dll
+D:\Quanlyview\Quanlyview\Quanlyview\bin\Debug\net8.0-windows\runtimes\win-x64\native\sni.dll
+D:\Quanlyview\Quanlyview\Quanlyview\bin\Debug\net8.0-windows\runtimes\win-x86\native\sni.dll
+D:\Quanlyview\Quanlyview\Quanlyview\bin\Debug\net8.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Quanlyview\Quanlyview\Quanlyview\bin\Debug\net8.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Quanlyview\Quanlyview\Quanlyview\obj\Debug\net8.0-windows\Quanlyview.csproj.AssemblyReference.cache
+D:\Quanlyview\Quanlyview\Quanlyview\obj\Debug\net8.0-windows\Quanlyview.csproj.Up2Date
+D:\Quanlyview\Quanlyview\Quanlyview\obj\Debug\net8.0-windows\Quanlyview.Properties.Resources.resources
